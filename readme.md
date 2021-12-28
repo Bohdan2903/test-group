@@ -6,7 +6,7 @@ git clone
 
 git pull origin master
 
-git checkout -b 'имя ветки' без кавычек
+git checkout -b 'имя ветки' без кавычек (fearure/your_surname)
 
 4)После изменения файлов git add .
 
