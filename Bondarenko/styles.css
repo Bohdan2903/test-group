@@ -1,0 +1,19 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1;
+    margin: 30px;
+}
+
+.color {
+    color: #fa3765;
+    text-shadow: 0 1px 1px rgba(68, 27, 27, 0.5), 1px 1px 1px rgba(68, 27, 27, 0.5), -1px 1px 1px rgba(68, 27, 27, 0.5), 0 2px 1px rgb(255, 2, 2), 2px 2px 1px rgb(255, 2, 2), -2px 2px 1px rgb(255, 2, 2), 0 3px 1px rgba(95, 1, 1, 0.5), 3px 3px 1px rgba(95, 1, 1, 0.5), -3px 3px 1px rgba(95, 1, 1, 0.5), 0 4px 1px rgb(253, 147, 2), 4px 4px 1px rgb(253, 147, 2), -4px 4px 1px rgb(253, 147, 2), 0 5px 1px rgba(48, 28, 1, 0.5), 5px 5px 1px rgba(48, 28, 1, 0.5), -5px 5px 1px rgba(48, 28, 1, 0.5), 0 6px 1px rgb(249, 249, 2), 3px 6px 1px rgb(249, 249, 2), 6px 6px 1px rgb(249, 249, 2), -3px 6px 1px rgb(249, 249, 2), -6px 6px 1px rgb(249, 249, 2), 0 7px 1px rgba(48, 28, 1, 0.5), 3px 7px 1px rgba(48, 28, 1, 0.5), 7px 7px 1px rgba(48, 28, 1, 0.5), -3px 7px 1px rgba(48, 28, 1, 0.5), -7px 7px 1px rgba(48, 28, 1, 0.5), 0 8px 1px rgb(50, 250, 3), 3px 8px 1px rgb(50, 250, 3), 8px 8px 1px rgb(50, 250, 3), -3px 8px 1px rgb(50, 250, 3), -8px 8px 1px rgb(50, 250, 3), 0 9px 1px rgba(7, 28, 10, 0.5), 3px 9px 1px rgba(7, 28, 10, 0.5), 6px 9px 1px rgba(7, 28, 10, 0.5), 9px 9px 1px rgba(7, 28, 10, 0.5), -3px 9px 1px rgba(7, 28, 10, 0.5), -6px 9px 1px rgba(7, 28, 10, 0.5), -9px 9px 1px rgba(7, 28, 10, 0.5), 0 10px 1px rgb(5, 245, 255), 3px 10px 1px rgb(5, 245, 255), 6px 10px 1px rgb(5, 245, 255), 10px 10px 1px rgb(5, 245, 255), -3px 10px 1px rgb(5, 245, 255), -6px 10px 1px rgb(5, 245, 255), -10px 10px 1px rgb(5, 245, 255), 0 11px 1px rgba(2, 30, 30, 0.5), 3px 11px 1px rgba(2, 30, 30, 0.5), 6px 11px 1px rgba(2, 30, 30, 0.5), 11px 11px 1px rgba(2, 30, 30, 0.5), -3px 11px 1px rgba(2, 30, 30, 0.5), -6px 11px 1px rgba(2, 30, 30, 0.5), -11px 11px 1px rgba(2, 30, 30, 0.5);
+}
+.box-shadow {
+    width: 80%;
+    max-width: 100px;
+    margin: 3em auto;
+    padding: 1em;
+    box-shadow: -10px -10px 0 0 rgba(160,82,45,0.5), -10px 10px 0 0 rgba(0,255,255,0.5), 10px -10px 0 0 rgba(255,0,0,0.5), 10px 10px 0 0 rgba(255,255,0,0.5);
+}
