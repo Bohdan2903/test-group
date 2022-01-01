@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #008888;
+}
+
+@keyframes ball1 {
+    0%, 100% {
+        transform: translate(-50%, -50%);
+        opacity: 100%;
+    }
+
+    12.5%, 82.5%  {
+        transform: translate(-50%, -50%);
+        opacity: 30%;
+    }
+}
+
+@keyframes ball2 {
+    0%, 100% {
+        opacity: 30%;
+    }
+
+    12.5% {
+        opacity: 100%;
+    }
+}
+
+@keyframes ball3 {
+    0%, 12.5%, 100% {
+        transform: translate(-50%, -50%);
+        opacity: 30%;
+    }
+
+    25% {
+        transform: translate(-50%, -50%);
+        opacity: 100%;
+    }
+}
+
+@keyframes ball4 {
+    0%,  25%, 100% {
+        opacity: 30%;
+    }
+
+    37.5% {
+        opacity: 100%;
+    }
+}
+
+@keyframes ball5 {
+    0%,  37.5%, 100% {
+        transform: translate(-50%, -50%);
+        opacity: 30%;
+    }
+
+    45% {
+        transform: translate(-50%, -50%);
+        opacity: 100%;
+    }
+}
+
+@keyframes ball6 {
+    0%,  45%, 100% {
+        opacity: 30%;
+    }
+
+    57.5% {
+        opacity: 100%;
+    }
+}
+
+@keyframes ball7 {
+    0%,  57.5%, 100% {
+        transform: translate(-50%, -50%);
+        opacity: 30%;
+    }
+
+   70% {
+       transform: translate(-50%, -50%);
+       opacity: 100%;
+    }
+}
+
+@keyframes ball8 {
+    0%,  70%, 100% {
+        opacity: 30%;
+    }
+
+    82.5% {
+        opacity: 100%;
+    }
+}
+
+@keyframes load {
+    0%, 100% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 30%;
+    }
+}
+
+.big-ball {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.round {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #f9fcda;
+    opacity: 30%;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.ball1 {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: ball1;
+}
+.ball2 {
+    top: 7%;
+    left: 77%;
+    animation-name: ball2;
+}
+
+.ball3 {
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    animation-name: ball3;
+}
+.ball4 {
+    top: 77%;
+    left: 77%;
+    animation-name: ball4;
+}
+
+.ball5 {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: ball5;
+}
+.ball6 {
+    top: 77%;
+    left: 7%;
+    animation-name: ball6;
+}
+
+.ball7 {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    animation-name: ball7;
+}
+
+.ball8 {
+    top: 7%;
+    left: 7%;
+    animation-name: ball8;
+}
+
+span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: capitalize;
+    color: #F9FCDAFF;
+    font-size: 22px;
+    transform: translate(-50%, -50%);
+    padding-left: 6px;
+    animation-name: load;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
