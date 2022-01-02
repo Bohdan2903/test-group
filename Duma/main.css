@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.box {
+    display: block;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+}
+
+div.blue {
+    background-color: #add8e6;
+    top: 0;
+    left: 0;
+}
+
+div.darkgreen {
+    background-color: #008b8b;
+    top: 150px;
+    left: 150px; 
+    z-index: 1; 
+}
+
+div.violet {
+    background-color: #4d0099;
+    top: 300px;
+    left: 300px;
+    z-index: 2;   
+}
+
+div.green {
+    background-color:#adff2f;
+    top: 450px;
+    left: 450px;
+    z-index: 3;
+}
