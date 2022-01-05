@@ -4,34 +4,34 @@
     padding: 0;
 }
 
-div.box {
+.box {
     display: block;
     height: 300px;
     width: 300px;
     position: absolute;
 }
 
-div.blue {
+.blue {
     background-color: #add8e6;
     top: 0;
     left: 0;
 }
 
-div.darkgreen {
+.darkgreen {
     background-color: #008b8b;
     top: 150px;
     left: 150px; 
     z-index: 1; 
 }
 
-div.violet {
+.violet {
     background-color: #4d0099;
     top: 300px;
     left: 300px;
     z-index: 2;   
 }
 
-div.green {
+.green {
     background-color:#adff2f;
     top: 450px;
     left: 450px;
