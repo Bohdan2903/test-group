@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e1ebfa;
+}
+
+.cycles{
+    position: absolute;
+    width: 700px;
+    height: 340px;
+    top: 150px;
+    left: 370px;
+}
+
+.loader {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.blue{
+    border: 10px solid blue;
+    border-top: 10px solid #f3f3f3;
+    left:0;
+    top:0;
+}
+
+.black{
+    border: 10px solid black;
+    border-top: 10px solid #f3f3f3;
+    left: 230px;
+    top: 0;
+}
+
+.red{
+    border: 10px solid red;
+    border-top: 10px solid #f3f3f3;
+    left: 460px;
+    top: 0;
+}
+
+.yellow{
+    border: 10px solid yellow;
+    border-top: 10px solid #f3f3f3;
+    left: 110px;
+    top: 110px;
+}
+
+.green{
+    border: 10px solid green;
+    border-top: 10px solid #f3f3f3;
+    left: 340px;
+    top: 110px;
+}
+
+.loading {
+    font-size: 40px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 530px;
+    top: 250px;
+    background-color: rgba(252, 252, 252, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    opacity: 0;
+}
+
+.loading:hover {
+    opacity: 1;
+}
