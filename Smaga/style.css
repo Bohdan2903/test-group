@@ -1,0 +1,42 @@
+.preloader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.block {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    animation-name: animate;
+    animation-duration: 0.5s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes animate {
+    from {transform:translateY(-100%); }
+    to {transform:translateY(100%); }
+}
+.one{
+    background-color: rgb(252, 81, 81);
+    animation-delay: 0s;
+}
+.two{
+    background-color: rgb(236, 248, 61);
+    animation-delay: 0.2s;
+}
+.three{
+    background-color: rgb(62, 255, 175);
+    animation-delay: 0.4s;
+}
+.four{
+    background-color: rgb(81, 184, 252);
+    animation-delay: 0.6s;
+}
+.five{
+    background-color: rgb(92, 81, 252);
+    animation-delay: 0.8s;
+}
