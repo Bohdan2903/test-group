@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    position: absolute;
+    display: inline-block;
+}
+
+.yellow {
+    height: 400px;
+    width: 400px;
+    background-color: #fcfd2a;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+}
+
+.grey {
+    height: 400px;
+    width: 100%;
+    background-color: rgba(172, 197, 183, 0.97);
+    position: absolute;
+    bottom: 50px;
+    display: block;
+}
