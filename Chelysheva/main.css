@@ -1,0 +1,32 @@
+.block {
+    border: 2px double rosybrown;
+    padding: 10px 10px;
+    max-width: 250px;
+    margin: 50px auto;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    color: bisque;
+    cursor: pointer;
+}
+
+.subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+.block:hover {
+    transform: scale(1.5);
+}
