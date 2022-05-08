@@ -1,0 +1,66 @@
+.container_fifth {
+    background: #F5F5FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px 160px 10px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+.container_fifth .publication {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #24A3FF;
+    display: flex;
+}
+.container_fifth .tell {
+    display: flex;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container_fifth .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.container_fifth .item {
+    display: grid;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.container_fifth .item img {
+    width: 100%;
+}
+.container_fifth .text {
+    padding: 30px;
+}
+.container_fifth .text .blue {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #24A3FF;
+}
+.container_fifth .text .data {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B3B3BA;
+}
+.container_fifth .text .line {
+    background: #E6E6F0;
+    height: 4px;
+    margin: 15px 0;
+}
