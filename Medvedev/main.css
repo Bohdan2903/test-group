@@ -1,0 +1,233 @@
+@import url(neris/neris.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Neris', Arial sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 30px;
+}
+
+.nav {
+    max-width: 600px;
+    text-align: center;
+    display: grid;
+    align-items: start;
+    justify-items: start;
+    grid-template-columns: 6fr repeat(3, 1fr);
+}
+
+.nav__svg {
+    max-width: 36px;
+    fill: #555555;
+}
+
+.login {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+    display: inline-flex;
+    align-items: center;
+    padding: 1px 8px;
+    margin-left: 7px;
+}
+
+.login:hover {
+    transform: scale(1.05);
+    /*color: #6ee334;*/
+    /*background: linear-gradient(90deg,*/
+    /*rgba(255,255,255,0) 0%,*/
+    /*rgba(51,51,51,1) 15%,*/
+    /*rgba(85,85,85,0.8925945378151261) 55%,*/
+    /*rgba(195,195,195,0.9682247899159664) 65%,*/
+    /*rgba(255,255,255,0) 100%);*/
+    /*border-radius: 25%;*/
+    transition: background 300ms ease-in-out,
+    transform 300ms ease-in-out;
+
+}
+
+.login:hover p {
+    background: -webkit-linear-gradient(0deg,
+    rgba(0,255,44,1) 0%, rgba(106,106,106,1) 80%,
+    rgba(62,62,62,0.8365721288515406) 75%, rgba(85,85,85,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.svg__login {
+    max-width: 18px;
+    fill: #555555;
+    margin-right: 4px;
+}
+
+.svg__login:hover  {
+    transform: scale(1.05);
+    fill: #6ee334;
+    transition: transform 300ms ease-in-out, fill 300ms ease-in-out;
+}
+
+.logo__box {
+    background: radial-gradient(circle, rgb(255, 0, 0) 0%,
+    rgba(255,255,255,0) 24%);    border-radius: 100%;
+    animation: transform 5s infinite normal;
+}
+
+@keyframes tranform {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(2);
+    }
+}
+
+
+
+#logo:hover {
+    transform: scale(1.1);
+    transition: transform 3s ease-in-out;
+}
+
+#logo {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+stop {
+    animation: colors 16s infinite;
+}
+
+.stop-2 {
+    animation-delay: -3s;
+}
+
+.stop-3 {
+    animation-delay: -6s;
+}
+
+@keyframes colors {
+    15% {
+        stop-color: crimson;
+    }
+    30% {
+        stop-color: gold;
+    }
+    45% {
+        stop-color: teal;
+    }
+    60% {
+        stop-color: #380707;
+    }
+    75% {
+        stop-color: orangered;
+    }
+    90% {
+        stop-color: #000d38;
+    }
+}
+
+#path0 {
+    fill: #380707;
+}
+
+#path1 {
+    /*fill: #d10a0a;*/
+    fill: url(#gradient);
+}
+
+#path2 {
+    fill: rgba(251, 249, 249, 0);
+}
+
+#path3 {
+    fill: #c97474;
+}
+
+#path4 {
+    fill: #ea9e9e;
+}
+
+#path5 {
+    fill: #a39898;
+}
+
+#path6 {
+    fill: #f07c7c;
+}
+
+#path7 {
+    fill: #ecbcbc;
+}
+
+#path8 {
+    fill: #d1c9c9;
+}
+
+.link__box a {
+    margin-left: 10px;
+    background-image: url(images/spritesheet-2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.link__box a:hover {
+    background-image: url(images/spritesheet.png);
+    transform: scale(1.1);
+    transition: background-image 200ms 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+.sprite-FR {
+    width: 50px;
+    height: 23px;
+    background-position: -10px -10px;
+}
+
+.sprite-Fila {
+    width: 50px;
+    height: 17px;
+    background-position: -80px -10px;
+}
+
+.sprite-MOTO {
+    width: 50px;
+    height: 18px;
+    background-position: -150px -10px;
+}
+
+.sprite-RTH {
+    width: 50px;
+    height: 30px;
+    background-position: -220px -10px;
+}
+
+.sprite-RedBull {
+    width: 50px;
+    height: 30px;
+    background-position: -290px -10px;
+}
+
+.sprite-STI {
+    width: 50px;
+    height: 21px;
+    background-position: -360px -10px;
+}
+
+.sprite-nextLevel {
+    width: 50px;
+    height: 28px;
+    background-position: -430px -10px;
+}
